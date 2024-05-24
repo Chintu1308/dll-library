@@ -1,7 +1,7 @@
 # DLL Library
 
 This library provides functionality for implementing doubly linked lists in JavaScript.
-This is a Double-linked list library that provides various operations on double-linked lists. Brary to visualize and interact with a double-linked list using animations.
+This is a Double-linked list library that provides various operations on the double-linked lists library to visualize and interact with a double-linked list using animations.
 Go to the link to experience the animation ->  https://chintu1308.github.io/dll-library/src
 
 ## Installation 1
@@ -46,7 +46,7 @@ You can use this library by including the following resources in your HTML file.
 **Method1: Add to HTML Structure**
 Include the following HTML structure to your webpage where you want the linked list animation to appear:
 
-```html
+```HTML
 <iframe src="https://chintu1308.github.io/dll-library/dist" width="650" height="400" frameborder="0"  allowfullscreen></iframe>
 ```
 **Method2: Add as a Button**
@@ -85,22 +85,22 @@ export default LinkedListAnimation;
 For mobile applications, you can use a WebView component to load the animation. Below are examples for both Android and iOS:
 
 Android (using WebView):
-***1.Add WebView dependency to your build.gradle file:***
+***1. Add WebView dependency to your build.gradle file:***
 
 ```gradle
 dependencies {
     implementation 'androidx.webkit:webkit:1.4.0'
 }
 ```
-***2.Create a WebView in your layout XML file:***
-```xml
+***2. Create a WebView in your layout XML file:***
+```XML
 <WebView
     android:id="@+id/webview"
     android:layout_width="match_parent"
     android:layout_height="match_parent" />
 ```
 
-***3.Load the URL in your Activity:***
+***3. Load the URL in your Activity:***
 
 ```java
 import android.os.Bundle;
