@@ -1,7 +1,8 @@
 # DLL Library
 
 This library provides functionality for implementing doubly linked lists in JavaScript.
-This is a Double-linked list library that provides various operations on double-linked lists.brary to visA liualize and interact with a double linked list using animations.
+This is a Double-linked list library that provides various operations on double-linked lists. Brary to visualize and interact with a double-linked list using animations.
+Go to the link to experience the animation ->  https://chintu1308.github.io/dll-library/src
 
 ## Installation 1
 
@@ -49,7 +50,7 @@ Include the following HTML structure to your webpage where you want the linked l
 <iframe src="https://chintu1308.github.io/dll-library/dist" width="650" height="400" frameborder="0"  allowfullscreen></iframe>
 ```
 **Method2: Add as a Button**
-add a button as followed
+add a button as follows
 ```html
 <button onclick="openAnimation()">Open Linked List Animation</button>
 ```
@@ -63,7 +64,7 @@ function openAnimation() {
 
 **Embedding in a Web Application**
 
-If you want to add the animation to a web application, such as one built with React, Vue, or Angular, you can use a similar approach with the iframe. Here is an example for a React application:
+If you want to add animation to a web application, such as one built with React, Vue, or Angular, you can use a similar approach with the iframe. Here is an example for a React application:
 
 ```jsx
 
